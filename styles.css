@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141a32;
+  }
+  
+  header {
+    background-color: #1c1769;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header.dark {
+    background-color: #222;
+    color: #e91c1c;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #32a4c3;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: #1c1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  
+  .imagenes-centradas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imagenes-centradas img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #333;
+  }
+  
+  .imagenes-centradas img:hover {
+    transform: scale(1.1);
+  }
+  
+  #reserva {
+    text-align: center;
+  }
+  
+  #reserva-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #reserva-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #reserva-form input,
+  #reserva-form button {
+    margin-top: 5px;
+  }
+  
+  #reserva-form button {
+    padding: 10px 20px;
+    background-color: #37b01cce;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #reserva-form button:hover {
+    background-color: #585b58;
+  }
+  
+  .elegante-section {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(16, 196, 46, 0.1);
+  }
+  

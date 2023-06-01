@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Series y Películas Favoritas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Serie y Película Favoritas</h1>
+    <nav>
+      <ul>
+        <li><a href="#serie">Serie</a></li>
+        <li><a href="#pelicula">Película</a></li>
+        <li><a href="#pelicula">Reserva</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="serie">
+      <h2>Mi Serie Favorita</h2>   
+      </ul>
+      <div class="imagenes-centradas">
+        <img src="serie1.jpg" alt="Imagen de la serie" onclick="animarImagen(this)">
+        <img src="serie2.jpg" alt="Imagen de la serie" onclick="animarImagen(this)">
+        <img src="serie3.jpg" alt="Imagen de la serie" onclick="animarImagen(this)">
+      </div>
+    </section>
+    
+    <section id="pelicula">
+      <h2>Mi Película Favorita</h2> 
+      </ul>
+      <div class="imagenes-centradas">
+        <img src="pelicula1.jpg" alt="Imagen de la película" onclick="animarImagen(this)">
+        <img src="pelicula2.jpg" alt="Imagen de la película" onclick="animarImagen(this)">
+        <img src="pelicula3.jpg" alt="Imagen de la película" onclick="animarImagen(this)">
+      </div>
+    </section>
+    
+    <section id="reserva">
+      <h2>Reserva</h2>
+      <form id="reserva-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="fecha">Fecha de reserva:</label>
+        <input type="date" id="fecha" required>
+        <button type="submit">Reservar</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
